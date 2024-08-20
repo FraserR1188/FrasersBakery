@@ -1,0 +1,17 @@
+
+/* ------------------Colours--------------- */
+
+body {
+    color: aqua;
+}
+
+
+/* ------------------Header--------------- */
+
+.open-times {
+    margin-top: 20px;
+}
+
+.title {
+    font-family: "Oswald", sans-serif;
+}
