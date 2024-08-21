@@ -1,17 +1,42 @@
-
 /* ------------------Colours--------------- */
 
-body {
-    color: aqua;
-}
-
-
-/* ------------------Header--------------- */
-
-.open-times {
+.main-colour {
+    background-color: beige;
+  }
+  
+  .page-divider {
+    border-top: 30px solid rgb(67, 67, 170);
+  }
+  
+  .main-text-colour {
+    color: rgb(49, 49, 131);
+  }
+  
+  /* ------------------Header--------------- */
+  
+  .open-times {
+    padding-bottom: 2px;
+    border: 2px solid black;
     margin-top: 20px;
-}
-
-.title {
+    border-radius: 10px;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 4rem;
     font-family: "Oswald", sans-serif;
-}
+    padding-bottom: 10px;
+  }
+  
+  .nav-link {
+    font-weight: bold;
+    color: rgb(67, 67, 170);
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #8b8589;
+  }
+  
+  /* ------------------Who are we--------------- */
+  
