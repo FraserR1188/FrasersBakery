@@ -1,42 +1,90 @@
 /* ------------------Colours--------------- */
 
 .main-colour {
-    background-color: beige;
-  }
-  
-  .page-divider {
-    border-top: 30px solid rgb(67, 67, 170);
-  }
-  
-  .main-text-colour {
-    color: rgb(49, 49, 131);
-  }
-  
-  /* ------------------Header--------------- */
-  
-  .open-times {
-    padding-bottom: 2px;
-    border: 2px solid black;
-    margin-top: 20px;
-    border-radius: 10px;
-  }
-  
-  .title {
-    font-weight: bold;
-    font-size: 4rem;
-    font-family: "Oswald", sans-serif;
-    padding-bottom: 10px;
-  }
-  
-  .nav-link {
-    font-weight: bold;
-    color: rgb(67, 67, 170);
-    text-decoration: none;
-  }
-  
-  .nav-link:hover {
-    color: #8b8589;
-  }
-  
-  /* ------------------Who are we--------------- */
-  
+  background-color: beige;
+}
+
+.page-divider {
+  border-top: 40px solid rgb(67, 67, 170);
+}
+
+.main-text-colour {
+  color: rgb(49, 49, 131);
+}
+
+/* ------------------Header--------------- */
+
+.open-times {
+  padding-bottom: 2px;
+  border: 2px solid black;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 4rem;
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 10px;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: rgb(67, 67, 170);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #8b8589;
+}
+
+/* ------------------Carousel Pictures--------------- */
+
+.slideshow-text {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* ------------------Who are we--------------- */
+
+.page-title {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#who-are-we {
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* ------------------Social Icons--------------- */
+
+.bi {
+  font-size: 2rem;
+  padding: 15px;
+  color: rgb(67, 67, 170);
+}
+
+.social-links {
+  margin: 20px;
+}
+
+/* ------------------Where are we?--------------- */
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 75%;
+  width: 75%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
