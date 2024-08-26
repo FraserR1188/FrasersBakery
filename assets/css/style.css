@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* ------------------Colours--------------- */
 
 .main-colour {
@@ -6,6 +10,8 @@
 
 .page-divider {
   border-top: 40px solid rgb(67, 67, 170);
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .main-text-colour {
@@ -13,6 +19,24 @@
 }
 
 /* ------------------Header--------------- */
+
+body {
+  padding-top: 110px;
+}
+
+.fixed-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  background: white;
+}
+
+.container-header {
+  width: 80%;
+  margin: 0 auto;
+  z-index: 999;
+}
 
 .open-times {
   padding-bottom: 2px;
@@ -25,7 +49,9 @@
   font-weight: bold;
   font-size: 4rem;
   font-family: "Oswald", sans-serif;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
 }
 
 .nav-link {
@@ -46,6 +72,10 @@
   text-decoration: underline;
 }
 
+.carousel {
+  z-index: -1;
+}
+
 /* ------------------Who are we--------------- */
 
 .page-title {
@@ -53,13 +83,15 @@
   font-weight: bold;
   font-family: "Oswald", sans-serif;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 #who-are-we {
   border: 2px solid black;
   padding: 15px;
   border-radius: 10px;
+  font-family: "Noto Sans", sans-serif;
 }
 
 /* ------------------Social Icons--------------- */
@@ -68,23 +100,111 @@
   font-size: 2rem;
   padding: 15px;
   color: rgb(67, 67, 170);
+  transition: 0.3s;
 }
 
 .social-links {
   margin: 20px;
 }
 
-/* ------------------Where are we?--------------- */
-
-.google-map {
-  padding-bottom: 50%;
-  position: relative;
+.bi:hover {
+  color: #8b8589;
 }
 
-.google-map iframe {
-  height: 75%;
-  width: 75%;
-  left: 0;
-  top: 0;
-  position: absolute;
+/* ------------------Where are we?--------------- */
+
+.address-section {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.address-title {
+  text-align: center;
+}
+
+.google-map {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#address-list {
+  list-style-type: none;
+  text-align: center;
+  padding: 25px;
+  flex-wrap: wrap;
+}
+
+/* ------------------Wee Review--------------- */
+
+#review-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 300px;
+}
+
+#fullname {
+  margin-bottom: 10px;
+}
+
+#emailaddress {
+  margin-bottom: 10px;
+}
+
+#submit-review {
+  margin: 10px;
+}
+
+/* #submit-review:hover {
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1), -10px -10px -10px #f9f9eb;
+} */
+
+/* ------------------Menu--------------- */
+
+figure {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 400px;
+}
+
+.menu-item-text {
+  font-weight: bold;
+  font-family: "Noto Sans", sans-serif;
+  color: #103e2a;
+}
+
+/* ------------------Work with us--------------- */
+
+#work-with-us-from-title {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#workwithus {
+  margin-bottom: 10px;
+}
+
+.center-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+/* ------------------Media Query--------------- */
+
+@media (min-wdith: 992px) {
+  .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
 }

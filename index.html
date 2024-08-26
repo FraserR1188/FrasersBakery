@@ -104,7 +104,7 @@
                   alt=""
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h4>Brown Loaf</h4>
+                  <h4 class="visually-hidden">Brown Loaf</h4>
                 </div>
               </div>
               <div class="carousel-item">
@@ -114,7 +114,7 @@
                   alt=""
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h4>Cinnamon Swirl</h4>
+                  <h4 class="visually-hidden">Cinnamon Swirl</h4>
                 </div>
               </div>
               <div class="carousel-item">
@@ -124,7 +124,7 @@
                   alt=""
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h4>Seeded Wholemeal Loaf</h4>
+                  <h4 class="visually-hidden">Seeded Wholemeal Loaf</h4>
                 </div>
               </div>
               <div class="carousel-item">
@@ -134,7 +134,7 @@
                   alt=""
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h4>Tart</h4>
+                  <h4 class="visually-hidden">Tart</h4>
                 </div>
               </div>
               <div class="carousel-item">
@@ -144,7 +144,7 @@
                   alt=""
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h4>White Buns</h4>
+                  <h4 class="visually-hidden">White Buns</h4>
                 </div>
               </div>
             </div>
@@ -244,7 +244,7 @@
                 </div>
               </div>
               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-              <button type="submit" class="btn btn-secondary mt-2">Submit</button>
+              <button type="submit" class="btn btn-outline-secondary mt-2">Submit</button>
           </form>
         </div>
       </div>
@@ -268,11 +268,12 @@
       <div class="container-fluid mt-5">
         <div class="row page-divider"></div>
       </div>
-      <form id="review-form">
+      <form id="review-form" method="post" action="thankyou.html">
           <h3 class="page-title">Leave us a wee review</h3>
           <input type="text" name="name" id="fullname" placeholder="Name" required>
           <input type="email" name="email" id="emailaddress" placeholder="Email" required >
           <textarea rows="6" cols="40"></textarea>
+          <button type="submit" id="submit-review" class="btn btn-outline-secondary">Submit Review</button>
       </form>
       <div class="container-fluid mt-5">
         <div class="row page-divider"></div>
