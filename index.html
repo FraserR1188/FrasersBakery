@@ -41,7 +41,7 @@
                 </nav>
               </div>
             </div>
-            <h1 class="title">Frasers Bakery</h1>
+            <h1 class="main-title">Frasers Bakery</h1>
           </header>
     <div class="container-fluid">
       <div class="row page-divider"></div>
@@ -54,7 +54,7 @@
             class="carousel slide carousel-fade carousel-dark"
             data-bs-ride="carousel"
           >
-            <div class="carousel-indicators">
+            <div class="carousel-indicators carousel-buttons">
               <button
                 class="active"
                 type="button"
@@ -101,7 +101,7 @@
                 <img
                   class="d-block w-100"
                   src="./assets/images/BrownLoaf.jpg"
-                  alt=""
+                  alt="brown loaf"
                 />
                 <div class="carousel-caption d-none d-md-block">
                   <h4 class="visually-hidden">Brown Loaf</h4>
@@ -111,7 +111,7 @@
                 <img
                   class="d-block w-100"
                   src="./assets/images/CinnamonSwirls.jpg"
-                  alt=""
+                  alt="cinnamon swirl"
                 />
                 <div class="carousel-caption d-none d-md-block">
                   <h4 class="visually-hidden">Cinnamon Swirl</h4>
@@ -121,7 +121,7 @@
                 <img
                   class="d-block w-100"
                   src="./assets/images/SeededLoaf.jpg"
-                  alt=""
+                  alt="seeded loaf"
                 />
                 <div class="carousel-caption d-none d-md-block">
                   <h4 class="visually-hidden">Seeded Wholemeal Loaf</h4>
@@ -131,7 +131,7 @@
                 <img
                   class="d-block w-100"
                   src="./assets/images/Tart.jpg"
-                  alt=""
+                  alt="strawberry tart"
                 />
                 <div class="carousel-caption d-none d-md-block">
                   <h4 class="visually-hidden">Tart</h4>
@@ -141,7 +141,7 @@
                 <img
                   class="d-block w-100"
                   src="./assets/images/WhiteBun.jpg"
-                  alt=""
+                  alt="white bun"
                 />
                 <div class="carousel-caption d-none d-md-block">
                   <h4 class="visually-hidden">White Buns</h4>
@@ -190,7 +190,7 @@
       <div class="row justify-content-center">
         <div class="col-8 text-center">
           <h3 class="page-title">Who are we?</h3>
-          <p id="who-are-we">
+          <p id="who-are-we" class="para-styling">
             Frasers Bakery is a small, independent bakery-café situated on a
             quiet leafy street in the heart of East London. First appearing as a
             stall on nearby Broadway Market in 2005, it has lived in its current
@@ -210,21 +210,22 @@
     <div class="container">
       <div class="row">
         <div class="col text-center">
+          <h4 id="subheading-title">Make sure to follow our social media for all our up-coming events acrosss the city!</h4>
           <ul class="list-inline menu-container social-links">
             <li class="list-inline-item menuitem">
-              <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></i>
+              <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a></i>
             </li>
             <li class="list-inline-item menuitem">
-              <a href="https://www.pinterest.co.uk/"><i class="bi bi-pinterest"></i></a>
+              <a href="https://www.pinterest.co.uk/" target="_blank"><i class="bi bi-pinterest"></i></a>
             </li>
             <li class="list-inline-item menuitem">
-              <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
             </li>
             <li class="list-inline-item menuitem">
-              <a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
             </li>
             <li class="list-inline-item menuitem">
-              <a href="https://en-gb.facebook.com/"><i class="bi bi-facebook"></i></a>
+              <a href="https://en-gb.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
             </li>
           </ul>
         </div>
@@ -236,14 +237,14 @@
     <div class="container mt-2">
       <div class="row d-flex justify-content-center">
         <div class="col-9 text-center">
-          <form>
-              <label for="exampleInputEmail1" class="form-label">Join our mailing list for offers and updates:</label>
+          <form method="get" action="thankyou.html" target="_blank">
+              <label for="mail-list-email" class="form-label">Join our mailing list for offers and updates:</label>
               <div class="row d-flex justify-content-center">
                 <div class="col-md-6">
-                  <input type="email" class="form-control" id="maillistEmail" aria-describedby="emailHelp" placeholder="@gmail.com">
+                  <input type="email" class="form-control" id="mail-list-email" aria-describedby="emailHelp" placeholder="@gmail.com" required>
                 </div>
               </div>
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              <div class="form-text">We'll never share your email with anyone else.</div>
               <button type="submit" class="btn btn-outline-secondary mt-2">Submit</button>
           </form>
         </div>
@@ -255,12 +256,12 @@
     <section class="address-section">
       <h3 class="page-title address-title" id="where-are-we">Where are we?</h3>
         <div class="google-map">
-          <ul id="address-list">
-            <li><h4>Come and visit us at</h4></li>
+          <ul id="address-list" class="para-styling">
+            <li><h4 id="subheading-title">Come and visit us at</h4></li>
             <li>42 Wretham Place</li>
             <li>Newcastle-Upon-Tyne</li>
             <li>NE2 1XU</li>
-            <li>0191 549 4587</li>
+            <li id="phone-number">0191 549 4587</li>
           </ul>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2289.7725166947316!2d-1.6024194221412573!3d54.97708837280696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e7111f314d609%3A0xe4c46a5ea6d47319!2sBig%20River%20Bakery!5e0!3m2!1sen!2suk!4v1724354609734!5m2!1sen!2suk" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
@@ -268,8 +269,9 @@
       <div class="container-fluid mt-5">
         <div class="row page-divider"></div>
       </div>
-      <form id="review-form" method="post" action="thankyou.html">
+      <form id="review-form" method="get" action="thankyou.html" target="_blank">
           <h3 class="page-title">Leave us a wee review</h3>
+          <h4 id="subheading-title">We would love to hear from you!</h4>
           <input type="text" name="name" id="fullname" placeholder="Name" required>
           <input type="email" name="email" id="emailaddress" placeholder="Email" required >
           <textarea rows="6" cols="40"></textarea>
@@ -283,19 +285,19 @@
         <div class="col text-center">
           <ul class="list-inline menu-container social-links">
             <li class="list-inline-item menuitem">
-              <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></i>
+              <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a></i>
             </li>
             <li class="list-inline-item menuitem">
-              <a href="https://www.pinterest.co.uk/"><i class="bi bi-pinterest"></i></a>
+              <a href="https://www.pinterest.co.uk/" target="_blank"><i class="bi bi-pinterest"></i></a>
             </li>
             <li class="list-inline-item menuitem">
-              <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
             </li>
             <li class="list-inline-item menuitem">
-              <a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
             </li>
             <li class="list-inline-item menuitem">
-              <a href="https://en-gb.facebook.com/"><i class="bi bi-facebook"></i></a>
+              <a href="https://en-gb.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
             </li>
           </ul>
         </div>
