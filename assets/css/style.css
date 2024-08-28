@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ------------------Colours--------------- */
+/* ------------------Borders/Colours--------------- */
 
 .main-colour {
   background-color: beige;
@@ -12,6 +12,24 @@ html {
   border-top: 80px solid rgb(67, 67, 170);
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.shop-container img {
+  border-top: 5px;
+  border-left: 5px;
+  border-right: 5px;
+  border-bottom: 5px;
+  border-color: #cead70;
+  border-style: solid;
+}
+
+.carousel-inner {
+  border-top: 10px;
+  border-left: 10px;
+  border-right: 10px;
+  border-bottom: 10px;
+  border-color: #cead70;
+  border-style: solid;
 }
 
 /* ------------------Header--------------- */
@@ -45,6 +63,10 @@ body {
   font-weight: bold;
   color: rgb(67, 67, 170);
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px;
+  font-size: 14px;
 }
 
 .nav-link:hover {
@@ -66,6 +88,7 @@ body {
 /* ------------------Page titles/subheadings/paragraph styling--------------- */
 
 .main-title {
+  color: #443e3e;
   font-weight: bold;
   font-size: 6rem;
   font-family: "Oswald", sans-serif;
@@ -74,11 +97,12 @@ body {
   text-align: center;
   letter-spacing: 6px;
   text-decoration-line: underline;
-  text-decoration-color: #003844;
+  text-decoration-color: #cead70;
 }
 
 .page-title {
-  font-size: 4.5rem;
+  color: #443e3e;
+  font-size: 4rem;
   font-weight: bold;
   font-family: "Oswald", sans-serif;
   margin-top: 10px;
@@ -86,10 +110,11 @@ body {
   text-align: center;
   letter-spacing: 6px;
   text-decoration-line: underline;
-  text-decoration-color: #003844;
+  text-decoration-color: #cead70;
 }
 
 #subheading-title {
+  color: #443e3e;
   text-align: center;
   font-size: 2rem;
   padding-bottom: 25px;
@@ -101,15 +126,55 @@ body {
   font-family: "Noto Sans", sans-serif;
   font-weight: 500;
   font-size: 1.2rem;
-  color: #003844;
+  color: #443e3e;
 }
 
 /* ------------------Who are we--------------- */
 
 #who-are-we {
-  border: 2px solid black;
+  border: 2px solid #443e3e;
   padding: 15px;
   border-radius: 10px;
+}
+
+.shop-container {
+  position: relative;
+}
+
+.shop-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.shop-middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.shop-container:hover .shop-image {
+  opacity: 0.3;
+}
+
+.shop-container:hover .shop-middle {
+  opacity: 1;
+}
+
+.shop-text {
+  background-color: #443e3e;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 5px;
 }
 
 /* ------------------Social Icons--------------- */
@@ -186,7 +251,7 @@ body {
 
 /* ------------------Menu--------------- */
 
-figure {
+#foodmenu-container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -194,11 +259,7 @@ figure {
   align-items: center;
 }
 
-img {
-  width: 400px;
-}
-
-.menu-item-text {
+.image-item-text {
   font-weight: bold;
   font-family: "Noto Sans", sans-serif;
   color: #103e2a;
