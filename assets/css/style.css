@@ -14,7 +14,13 @@ html {
   margin-bottom: 40px;
 }
 
-.shop-container img {
+#social-mail-divider.page-divider {
+  border-top: 40px solid rgb(67, 67, 170);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.page-divider .shop-container img {
   border-top: 5px;
   border-left: 5px;
   border-right: 5px;
@@ -44,12 +50,12 @@ body {
   top: 0;
   text-align: center;
   background: white;
+  z-index: 9;
 }
 
 .container-header {
   width: 80%;
   margin: 0 auto;
-  z-index: 999;
 }
 
 .open-times {
@@ -288,19 +294,65 @@ body {
   padding-bottom: 20px;
 }
 
-/* ------------------Media Query--------------- */
+/* ------------------Media Queries--------------- */
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .center-form {
     padding-top: 30px;
     min-height: 240px;
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 75%;
   }
 
   .bi {
     font-size: 2rem;
     padding: 20px;
+  }
+
+  .main-title {
+    font-size: 4.5rem;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    letter-spacing: 5px;
+  }
+
+  .para-styling {
+    font-size: 1rem;
+  }
+
+  #subheading-title {
+    font-size: 2rem;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .page-title {
+    font-size: 3rem;
+  }
+
+  .nav-link {
+    letter-spacing: 1px;
+    padding: 0px;
+    font-size: 14px;
+  }
+
+  .open-times {
+    padding-bottom: 2px;
+    border: 2px solid black;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+
+  .page-divider {
+    border-top: 65px solid rgb(67, 67, 170);
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #social-mail-divider.page-divider {
+    border-top: 35px solid rgb(67, 67, 170);
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 
@@ -308,5 +360,80 @@ body {
   .bi {
     font-size: 1.3rem;
     padding: 10px;
+  }
+
+  .para-styling {
+    font-size: 0.7rem;
+  }
+
+  .main-title {
+    font-size: 3rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    letter-spacing: 3px;
+  }
+
+  #subheading-title {
+    font-size: 1.3rem;
+    padding-bottom: 0px;
+  }
+
+  .page-title {
+    font-size: 2rem;
+    margin: 10px;
+  }
+
+  .nav-link {
+    font-size: 12px;
+  }
+
+  .open-times {
+    padding-bottom: 2px;
+    border: 1px solid black;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  .page-divider {
+    border-top: 40px solid rgb(67, 67, 170);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #social-mail-divider.page-divider {
+    border-top: 30px solid rgb(67, 67, 170);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .slideshow-text {
+    font-size: 0.8rem;
+  }
+
+  .center-form {
+    padding-top: 10px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 75%;
+  }
+}
+
+@media (max-width: 405px) {
+  .page-title {
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  .page-divider {
+    border-top: 20px solid rgb(67, 67, 170);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #social-mail-divider.page-divider {
+    border-top: 15px solid rgb(67, 67, 170);
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
