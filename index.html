@@ -15,7 +15,11 @@
       @import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
       @import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+      type="text/css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Frasers Bakery</title>
   </head>
@@ -26,17 +30,23 @@
           <h5 class="open-times">Open Times: Mon - Sat 09:00 - 17:00</h5>
           <nav>
             <ul id="nav" class="list-inline menu-container">
-              <li class="list-inline-item menuitem">
+              <li class="list-inline-item menu-item">
                 <a href="index.html" class="nav-link hvr-grow-rotate">Home</a>
               </li>
-              <li class="list-inline-item menuitem">
-                <a href="menu.html" class="nav-link hvr-grow-rotate">Our Menu</a>
+              <li class="list-inline-item menu-item">
+                <a href="menu.html" class="nav-link hvr-grow-rotate"
+                  >Our Menu</a
+                >
               </li>
-              <li class="list-inline-item menuitem">
-                <a href="index.html#where-are-we" class="nav-link hvr-grow-rotate">Where are we?</a>
+              <li class="list-inline-item menu-item">
+                <a href="#where-are-we" class="nav-link hvr-grow-rotate"
+                  >Where are we?</a
+                >
               </li>
-              <li class="list-inline-item menuitem">
-                <a href="workwithus.html" class="nav-link hvr-grow-rotate">Work with us?</a>
+              <li class="list-inline-item menu-item">
+                <a href="workwithus.html" class="nav-link hvr-grow-rotate"
+                  >Work with us?</a
+                >
               </li>
             </ul>
           </nav>
@@ -47,105 +57,352 @@
     <div class="container-fluid">
       <div class="row page-divider"></div>
     </div>
-    <h3 class="page-title">Take a look at our menu!</h3>
-    <section class="menu">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-4">
-            <figure id="foodmenu-container">
-              <img src="./assets/images/brown-loaf.jpg" class="img-fluid img-thumbnail" alt="Scrumcious brown loaf">
-              <figcaption class="image-item-text">Scrumcious Brown Loaf</figcaption>
-            </figure>
-          </div>
-          <div class="col-xl-4">
-            <figure id="foodmenu-container">
-              <img src="./assets/images/cinnamon-swirls.jpg" class="img-fluid img-thumbnail"  alt="Sweet cinnamon swirl">
-              <figcaption class="image-item-text">Sweet Cinnamon Swirl</figcaption>
-            </figure>
-          </div>
-          <div class="col-xl-4">
-            <figure id="foodmenu-container">
-              <img src="./assets/images/raspberry-tart.jpg" class="img-fluid img-thumbnail"  alt="Lovely raspberry tart">
-              <figcaption class="image-item-text">Lovely Raspberry Tart</figcaption>
-            </figure>
+    <section class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-7">
+          <div
+            id="slides-with-controls"
+            class="carousel slide carousel-fade carousel-dark"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators carousel-buttons">
+              <button
+                class="active"
+                type="button"
+                data-bs-target="#slides-with-controls"
+                data-bs-slide-to="0"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                class="active"
+                type="button"
+                data-bs-target="#slides-with-controls"
+                data-bs-slide-to="1"
+                aria-current="true"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                class="active"
+                type="button"
+                data-bs-target="#slides-with-controls"
+                data-bs-slide-to="2"
+                aria-current="true"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                class="active"
+                type="button"
+                data-bs-target="#slides-with-controls"
+                data-bs-slide-to="3"
+                aria-current="true"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                class="active"
+                type="button"
+                data-bs-target="#slides-with-controls"
+                data-bs-slide-to="4"
+                aria-current="true"
+                aria-label="Slide 5"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="./assets/images/brown-loaf.jpg"
+                  alt="brown loaf"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h4 class="visually-hidden">Brown Loaf</h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="./assets/images/cinnamon-swirls.jpg"
+                  alt="cinnamon swirl"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h4 class="visually-hidden">Cinnamon Swirl</h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="./assets/images/seeded-loaf.jpg"
+                  alt="seeded loaf"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h4 class="visually-hidden">Seeded Wholemeal Loaf</h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="./assets/images/raspberry-tart.jpg"
+                  alt="raspberry tart"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h4 class="visually-hidden">Raspberry Tart</h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="./assets/images/white-bun.jpg"
+                  alt="white bun"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h4 class="visually-hidden">White Buns</h4>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xl-4">
-            <figure id="foodmenu-container">
-              <img src="./assets/images/seeded-loaf.jpg" class="img-fluid img-thumbnail"  alt="Wholemeal seeded loaf">
-              <figcaption class="image-item-text">Wholemeal Seeded Loaf</figcaption>
-            </figure>
-          </div>
-          <div class="col-xl-4">
-            <figure id="foodmenu-container">
-              <img src="./assets/images/white-bun.jpg" class="img-fluid img-thumbnail"  alt="Cute white bun">
-              <figcaption class="image-item-text">Cute White Bun</figcaption>
-            </figure>
-          </div>
-          <div class="col-xl-4">
-            <figure id="foodmenu-container">
-              <img src="./assets/images/apricot-squares.jpg" class="img-fluid img-thumbnail"  alt="Fruity apricot tart">
-              <figcaption class="image-item-text">Fruity Apricot Tart</figcaption>
-            </figure>
-          </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="slideshow-text text-center">
+            This is a slideshow of our best products!
+          </p>
         </div>
-        <div class="row">
-          <div class="col-xl-4">
-            <figure id="foodmenu-container">
-              <img src="./assets/images/small-sweet-baguette.jpg" class="img-fluid img-thumbnail"  alt="small sweet baguette">
-              <figcaption class="image-item-text">Small Sweet Baguette</figcaption>
-            </figure>
-          </div>
-          <div class="col-xl-4">
-            <figure id="foodmenu-container">
-              <img src="./assets/images/sesame-brown-loaf.jpg" class="img-fluid img-thumbnail"  alt="sesame brown loaf">
-              <figcaption class="image-item-text">Sesame Brown Loaf</figcaption>
-            </figure>
-          </div>
-          <div class="col-xl-4">
-            <figure id="foodmenu-container">
-              <img src="./assets/images/white-loaf.jpg" class="img-fluid img-thumbnail"  alt="white loaf">
-              <figcaption class="image-item-text">White Loaf</figcaption>
-            </figure>
-          </div>
-        </div>
-        <p class="para-styling text-center">We also offer "on the day specials" in-store which can vary from day-to-day so you'll need to come down and have a coffee with a surprise!</p>
       </div>
     </section>
-      <div class="container-fluid">
-        <div class="row page-divider"></div>
+    <div class="container-fluid">
+      <div class="row page-divider"></div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-8 text-center">
+          <h3 class="page-title">Who are we?</h3>
+          <p id="who-are-we" class="para-styling">
+            Frasers Bakery is a small, independent bakery-café situated on a
+            quiet leafy street in the heart of East London. First appearing as a
+            stall on nearby Broadway Market in 2005, it has lived in its current
+            home on Wilton Way since 2010. A California style bakery, we are
+            informed by our Founder and Executive Chef Robbie Fraser's childhood
+            near San Francisco and the traditions of British baking as much as
+            we are the best seasonal ingredients we can get. All of our bakes
+            are made with high quality organic ingredients, be it fresh fruit,
+            dark chocolate, perfectly roasted espresso, or rich dairy.
+          </p>
+        </div>
       </div>
-      <footer class="container-fluid">
-        <div class="row">
-          <div class="col text-center">
-            <ul class="list-inline menu-container social-links">
-              <li class="list-inline-item menuitem">
-                <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube" aria-hidden="true"></i>
-                  <span class="sr-only visually-hidden">YouTube</span></a></a>
-              </li>
-              <li class="list-inline-item menuitem">
-                <a href="https://www.pinterest.co.uk/" target="_blank"><i class="bi bi-pinterest" aria-hidden="true"></i>
-                  <span class="sr-only visually-hidden">Pinterest</span></a></a>
-              </li>
-              <li class="list-inline-item menuitem">
-                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram" aria-hidden="true"></i>
-                  <span class="sr-only visually-hidden">Instagram</span></a></a>
-              </li>
-              <li class="list-inline-item menuitem">
-                <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin" aria-hidden="true"></i>
-                  <span class="sr-only visually-hidden">LinkedIn</span></a></a>
-              </li>
-              <li class="list-inline-item menuitem">
-                <a href="https://en-gb.facebook.com/" target="_blank"><i class="bi bi-facebook" aria-hidden="true"></i>
-                  <span class="sr-only visually-hidden">Facebook</span></a></a>
-              </li>
-            </ul>
-          </div>
+    </div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-xl-6">
+          <figure class="shop-container">
+            <img
+              src="./assets/images/shop-window-of-bakery.jpg"
+              class="img-fluid img-thumbnail shop-image"
+              style="width: 100%"
+              alt="A view of the shop window from outside, looking at all our fresh pastries."
+            />
+            <div class="shop-middle">
+              <div class="shop-text">
+                We have delicious fresh pastries made daily for the whole
+                community to enjoy. Make sure to take a look at our sample menu
+                within the website to see what's on offer.
+              </div>
+            </div>
+          </figure>
+        </div>
+        <div class="col-xl-6">
+          <figure class="shop-container">
+            <img
+              src="./assets/images/inside-of-the-bakery.jpg"
+              class="img-fluid img-thumbnail shop-image"
+              style="width: 100%"
+              alt=""
+            />
+            <div class="shop-middle">
+              <div class="shop-text">
+                Our staff are friendly and always give a warm welcome just like
+                our range of coffee's which would go very well with one of our
+                pastries. All of our bread is prepared fresh as well.
+              </div>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row page-divider"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h4 class="subheading-title">
+            Make sure to follow our social media for all our up-coming events
+            acrosss the city!
+          </h4>
+          <ul class="list-inline menu-container social-links">
+            <li class="list-inline-item menuitem">
+              <a href="https://www.youtube.com/" target="_blank"
+                ><i class="bi bi-youtube" aria-hidden="true"></i>
+                <span class="sr-only visually-hidden">YouTube</span></a
+              >
+            </li>
+            <li class="list-inline-item menuitem">
+              <a href="https://www.pinterest.co.uk/" target="_blank"
+                ><i class="bi bi-pinterest" aria-hidden="true"></i>
+                <span class="sr-only visually-hidden">Pinterest</span></a
+              >
+            </li>
+            <li class="list-inline-item menuitem">
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="bi bi-instagram" aria-hidden="true"></i>
+                <span class="sr-only visually-hidden">Instagram</span></a
+              >
+            </li>
+            <li class="list-inline-item menuitem">
+              <a href="https://www.linkedin.com/" target="_blank"
+                ><i class="bi bi-linkedin" aria-hidden="true"></i>
+                <span class="sr-only visually-hidden">LinkedIn</span></a
+              >
+            </li>
+            <li class="list-inline-item menuitem">
+              <a href="https://en-gb.facebook.com/" target="_blank"
+                ><i class="bi bi-facebook" aria-hidden="true"></i>
+                <span class="sr-only visually-hidden">Facebook</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row page-divider" id="social-mail-divider"></div>
+    </div>
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-9 text-center">
+          <form method="get" action="thankyou.html" target="_self">
+            <label for="mail-list-email" class="form-label"
+              >Join our mailing list for offers and updates:</label
+            >
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="mail-list-email"
+                  placeholder="@gmail.com"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+            <button type="submit" class="btn btn-outline-secondary">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row page-divider"></div>
+    </div>
+    <section class="address-section">
+      <h3 class="page-title address-title" id="where-are-we">Where are we?</h3>
+      <div class="google-map">
+        <ul id="address-list" class="para-styling">
+          <li><h4 class="subheading-title">Come and visit us at</h4></li>
+          <li>42 Wretham Place</li>
+          <li>Newcastle-Upon-Tyne</li>
+          <li>NE2 1XU</li>
+          <li id="phone-number">0191 549 4587</li>
+        </ul>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2289.7725166947316!2d-1.6024194221412573!3d54.97708837280696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e7111f314d609%3A0xe4c46a5ea6d47319!2sBig%20River%20Bakery!5e0!3m2!1sen!2suk!4v1724354609734!5m2!1sen!2suk"
+          width="450"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <div class="container-fluid">
+      <div class="row page-divider"></div>
+    </div>
+    <form id="review-form" method="get" action="thankyou.html" target="_self">
+      <h3 class="page-title">Leave us a wee review</h3>
+      <h4 id="subheading-title">We would love to hear from you!</h4>
+      <input
+        type="text"
+        name="name"
+        id="full-name"
+        placeholder="Name"
+        required
+      />
+      <input
+        type="email"
+        name="email"
+        id="email-address"
+        placeholder="Email"
+        required
+      />
+      <textarea id="review-textarea" rows="8" cols="45"></textarea>
+      <button
+        type="submit"
+        id="submit-review"
+        class="btn btn-outline-secondary"
+      >
+        Submit Review
+      </button>
+    </form>
+    <div class="container-fluid">
+      <div class="row page-divider"></div>
+    </div>
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col text-center">
+          <ul class="list-inline menu-container social-links">
+            <li class="list-inline-item menuitem">
+              <a href="https://www.youtube.com/" target="_blank"
+                ><i class="bi bi-youtube" aria-hidden="true"></i>
+                <span class="sr-only visually-hidden">YouTube</span></a
+              >
+            </li>
+            <li class="list-inline-item menuitem">
+              <a href="https://www.pinterest.co.uk/" target="_blank"
+                ><i class="bi bi-pinterest" aria-hidden="true"></i>
+                <span class="sr-only visually-hidden">Pinterest</span></a
+              >
+            </li>
+            <li class="list-inline-item menuitem">
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="bi bi-instagram" aria-hidden="true"></i>
+                <span class="sr-only visually-hidden">Instagram</span></a
+              >
+            </li>
+            <li class="list-inline-item menuitem">
+              <a href="https://www.linkedin.com/" target="_blank"
+                ><i class="bi bi-linkedin" aria-hidden="true"></i>
+                <span class="sr-only visually-hidden">LinkedIn</span></a
+              >
+            </li>
+            <li class="list-inline-item menuitem">
+              <a href="https://en-gb.facebook.com/" target="_blank"
+                ><i class="bi bi-facebook" aria-hidden="true"></i>
+                <span class="sr-only visually-hidden">Facebook</span></a
+              >
+            </li>
+          </ul>
+        </div>
         <a href="#" id="terms-and-conditions">Terms and Conditions</a>
-        <p>Robbie Fraser &#169</p>
+        <p>Robbie Fraser &#169;</p>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
 
