@@ -290,11 +290,23 @@ body {
 
 /* ------------------Media Query--------------- */
 
-@media (min-wdith: 992px) {
+@media (min-width: 992px) {
   .center-form {
     padding-top: 30px;
     min-height: 240px;
     margin: 0 auto;
     max-width: 50%;
+  }
+
+  .bi {
+    font-size: 2rem;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .bi {
+    font-size: 1.3rem;
+    padding: 10px;
   }
 }
