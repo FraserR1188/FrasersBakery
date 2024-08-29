@@ -254,15 +254,20 @@ body {
 #foodmenu-container {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  display: inline-block;
+}
+
+#foodmenu-container img {
+  vertical-align: top;
 }
 
 .image-item-text {
   font-weight: bold;
   font-family: "Noto Sans", sans-serif;
   color: #103e2a;
+  text-align: center;
 }
 
 /* ------------------Work with us--------------- */
