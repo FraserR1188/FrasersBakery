@@ -446,4 +446,9 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  .subheading-title {
+    font-size: 0.8rem;
+    padding-bottom: 0px;
+  }
 }
