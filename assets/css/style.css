@@ -310,6 +310,11 @@ body {
     max-width: 75%;
   }
 
+  .submit-button {
+    background-color: #443e3e;
+    color: #fff;
+  }
+
   .bi {
     font-size: 2rem;
     padding: 20px;
@@ -373,7 +378,7 @@ body {
   }
 
   .para-styling {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .main-title {
