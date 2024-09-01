@@ -103,7 +103,14 @@ The icons which will be present will be used for their metaphorically and litera
 
 ### Wireframes
 
-(insert here)
+![wireframe-index](https://github.com/user-attachments/assets/abf5c150-e195-4743-b0ca-f739f930a096)
+
+![wireframe-menu](https://github.com/user-attachments/assets/4c28cc92-3061-4074-a74e-2efc42c93872)
+
+![wireframe-workwithus](https://github.com/user-attachments/assets/a81ce80d-e754-4944-89f0-0253dc2bc7e4)
+
+I added the thankyou.html using the template of the other three and then adding a page-title with the text.
+
 ---
 ## Features
 
@@ -207,9 +214,15 @@ All links which are present work:
 
 On the menu.html, when the screen sized decreased the menu figcaption would shoot off to the right. I fixed this using a media queries when the screen got to this size:
 
+<img width="213" alt="bug-menu-items" src="https://github.com/user-attachments/assets/76b3900f-4685-4dcf-8af8-945184db3ec6">
+
 There was another bug which caused an invisible gap along the right side to appear when the screen sized reached to mobile. I fixed by making the the wee review section to having a more responsive textarea which only had max-width 70% instead of touching the sides of the screen when the screen got to mobile view. This fixed it.
 
+<img width="215" alt="Bug-gap" src="https://github.com/user-attachments/assets/af139302-ee92-4a66-8742-e1a850cedbaf">
+
 Another bug which I encountered was that the header with navigation icons was going under the carousel and also the images which had the hover over effect. To fix I did a bit of trial and error and swapped the z-index from container.header to fixed.header and worked.
+
+<img width="148" alt="Bug-z-index" src="https://github.com/user-attachments/assets/88785a49-eb72-4fd1-8f72-ab1ecdb38b90">
 
 ## Deployment
 
@@ -259,17 +272,49 @@ More a more in-depth process click [here.](https://docs.github.com/en/pages/gett
 
 ### Media
 
-![Raspberry Tart](https://pixabay.com/photos/tart-raspberries-whipped-cream-1283822/)
-![Apricot Pastry](https://pixabay.com/photos/cake-puff-pastry-desserts-currants-6491616/)
-![Seeded Loaf](https://pixabay.com/photos/bread-whole-wheat-bread-1510298/)
-![Wholemeal Loaf](https://pixabay.com/photos/bread-loaf-artisan-artisan-bread-1510155/)
-![Cinnamon Rolls](https://pixabay.com/photos/cinnamon-rolls-bread-spiral-baking-1417494/)
-![White Buns](https://pixabay.com/photos/bread-roll-bun-sweet-dessert-5916804/)
-![Shop window of bakery](https://pixabay.com/photos/bakery-breads-assorted-assortment-1868925/)
-![Inside of bakery](https://pixabay.com/photos/breads-pastries-croissants-1867459/)
-![seasame-brown-loaf](https://pixabay.com/photos/loaf-evening-bread-bread-crust-7445434/)
-![small-sweet-baguette](https://pixabay.com/photos/pretzels-baked-goods-food-bread-1491789/)
-![white-loaf](https://pixabay.com/photos/bread-loaf-white-bread-baked-food-4642686/)
+![Raspberry Tart](./assets/images/raspberry-tart.jpg)
+
+https://pixabay.com/photos/tart-raspberries-whipped-cream-1283822/
+
+![Apricot Pastry](./assets/images/apricot-square.jpg)
+
+https://pixabay.com/photos/cake-puff-pastry-desserts-currants-6491616/ 
+
+![Seeded Loaf](./assets/images/seeded-loaf.jpg)
+
+https://pixabay.com/photos/bread-whole-wheat-bread-1510298/
+
+![Wholemeal Loaf](./assets/images/seeded-loaf.jpg)
+
+https://pixabay.com/photos/bread-loaf-artisan-artisan-bread-1510155/
+
+![Cinnamon Rolls](./assets/images/cinnamon-swirls.jpg)
+
+https://pixabay.com/photos/cinnamon-rolls-bread-spiral-baking-1417494/
+
+![White Buns](./assets/images/white-bun.jpg)
+
+https://pixabay.com/photos/bread-roll-bun-sweet-dessert-5916804/
+
+![Shop window of bakery](./assets/images/shop-window-of-bakery.jpg)
+
+https://pixabay.com/photos/bakery-breads-assorted-assortment-1868925/
+
+![Inside of bakery](./assets/images/inside-of-bakery.jpg)
+
+https://pixabay.com/photos/breads-pastries-croissants-1867459/
+
+![seasame-brown-loaf](./assets/images/sesame-brown-loaf.jpg)
+
+https://pixabay.com/photos/loaf-evening-bread-bread-crust-7445434/
+
+![small-sweet-baguette](./assets/images/small-sweet-baguette.jpg)
+
+https://pixabay.com/photos/pretzels-baked-goods-food-bread-1491789/
+
+![white-loaf](./assets/images/white-loaf.jpg)
+
+https://pixabay.com/photos/bread-loaf-white-bread-baked-food-4642686/
 
 
 ### Code
@@ -304,11 +349,9 @@ This video gave me a better understanding of how to use the Bootstrap grid syste
 [https://stackoverflow.com/questions/35163164/how-to-center-content-in-a-bootstrap-column](https://stackoverflow.com/questions/35163164/how-to-center-content-in-a-bootstrap-column)
 
 I was looking through tutorials in YouTube for inspiration and stumbled across this which was a simple but effective short piece of code:
-[https://www.youtube.com/watch?v=Xc6G3oV24yE](https://www.youtube.com/watch?v=Xc6G3oV24yE)
-html  {
-scroll-behavior:  smooth;
-}
-This enabled me to smoothing transition to the "Where are we" section of the website instead of jumping.
+[Smooth scroll](https://www.youtube.com/watch?v=Xc6G3oV24yE) This enabled me to smoothing transition to the "Where are we" section of the website instead of jumping.
+
+<img width="186" alt="smooth-scroll" src="https://github.com/user-attachments/assets/8373cd2a-ffe6-4b2e-b480-924eec9a9e38">
 
 Bootstraps documentation helped a lot through this project and it showed me how to do the carousel imagery on the index.html. I also created my own navbar and not use Bootstraps default. This was purely to show that I can create the code for a fixed positioned navigation bar with fade effects on the writing.
 
@@ -316,8 +359,12 @@ An addition to the navigation bar links was from hover.css:
 https://ianlunn.github.io/Hover/#effects
 This created a grow and then rotate which is a nice, small design feature from an user experience POV.
 
+<img width="104" alt="hvr-code" src="https://github.com/user-attachments/assets/bbb25ea6-4556-4e36-b126-babc462107c2">
+
 I also implemented a hover overlay effect on the two main images in the index.html to enhance the user experience. The content which goes over the images when hovered just gives the user more information about the bakery.
 https://www.w3schools.com/howto/howto_css_image_overlay.asp
+
+<img width="260" alt="hover-overlay" src="https://github.com/user-attachments/assets/37e2d6d2-b30d-4f6d-8dc0-e3423a6ec034">
 
 I have used three different pixel widths for media queries which work well with the webpage. I used this video to give me a better understanding:
 [Media Queries](https://www.youtube.com/watch?v=K24lUqcT0Ms)
@@ -325,6 +372,8 @@ I have used three different pixel widths for media queries which work well with 
 I used this website to help me implement a fixed header:
 [https://www.tutorialrepublic.com/faq/how-to-create-fixed-header-or-footer-using-css.php](https://www.tutorialrepublic.com/faq/how-to-create-fixed-header-or-footer-using-css.php)
 
+<img width="154" alt="container-header" src="https://github.com/user-attachments/assets/cecedccc-67ce-433c-b330-f387c21e9ad4">
+
 ## Acknowledgements
 
-
+Thank you for my mentor's help to guide me the way to a decent first project.
