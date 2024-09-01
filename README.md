@@ -276,7 +276,7 @@ More a more in-depth process click [here.](https://docs.github.com/en/pages/gett
 
 https://pixabay.com/photos/tart-raspberries-whipped-cream-1283822/
 
-![Apricot Pastry](./assets/images/apricot-square.jpg)
+![Apricot Pastry](./assets/images/apricot-squares.jpg)
 
 https://pixabay.com/photos/cake-puff-pastry-desserts-currants-6491616/ 
 
