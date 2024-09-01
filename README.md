@@ -284,7 +284,7 @@ https://pixabay.com/photos/cake-puff-pastry-desserts-currants-6491616/
 
 https://pixabay.com/photos/bread-whole-wheat-bread-1510298/
 
-![Wholemeal Loaf](./assets/images/seeded-loaf.jpg)
+![Wholemeal Loaf](./assets/images/brown-loaf.jpg)
 
 https://pixabay.com/photos/bread-loaf-artisan-artisan-bread-1510155/
 
@@ -300,7 +300,7 @@ https://pixabay.com/photos/bread-roll-bun-sweet-dessert-5916804/
 
 https://pixabay.com/photos/bakery-breads-assorted-assortment-1868925/
 
-![Inside of bakery](./assets/images/inside-of-bakery.jpg)
+![Inside of bakery](./assets/images/inside-of-the-bakery.jpg)
 
 https://pixabay.com/photos/breads-pastries-croissants-1867459/
 
