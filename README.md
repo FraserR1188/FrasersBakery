@@ -174,6 +174,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [W3C Markup Validator](https://validator.w3.org/)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
+The website has also gone through Google Lighthouse.
+
 ### Testing User Stories from User Experience (UX) Section
 
 - Customer Goals
@@ -203,6 +205,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - The website has been tested on all screen sizes and responsive media queries support this through the web developer tools.
 - The website has been tested on a laptop and also on an iPhone.
+- Family and friends have also tested the website.
 
 All links which are present work:
 - Social icons take the user to new tab with the requested webpage.
