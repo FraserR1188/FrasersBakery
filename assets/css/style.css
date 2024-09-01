@@ -1,3 +1,4 @@
+/* This piece of code was take from a YouTube video */
 html {
   scroll-behavior: smooth;
 }
@@ -119,7 +120,7 @@ body {
   text-decoration-color: #cead70;
 }
 
-#subheading-title {
+.subheading-title {
   color: #443e3e;
   text-align: center;
   font-size: 2rem;
@@ -143,6 +144,7 @@ body {
   border-radius: 10px;
 }
 
+/* The next few bit of code were taken from W3C schools to create the hover overlay effect */
 .shop-container {
   position: relative;
 }
@@ -251,9 +253,13 @@ body {
   margin: 10px;
 }
 
-/* #submit-review:hover {
-  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1), -10px -10px -10px #f9f9eb;
-} */
+/* This fixed the bug which was mentioned in the relevant section */
+#review-text {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+  border: 1px solid black;
+}
 
 /* ------------------Menu--------------- */
 

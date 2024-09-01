@@ -176,7 +176,7 @@
           <h3 class="page-title">Who are we?</h3>
           <p id="who-are-we" class="para-styling">
             Frasers Bakery is a small, independent bakery-café situated on a
-            quiet leafy street in the heart of East London. First appearing as a
+            quiet leafy street in the heart of Newcastle-Upon-Tyne. First appearing as a
             stall on nearby Broadway Market in 2005, it has lived in its current
             home on Wilton Way since 2010. A California style bakery, we are
             informed by our Founder and Executive Chef Robbie Fraser's childhood
@@ -331,7 +331,7 @@
     </div>
     <form id="review-form" method="get" action="thankyou.html" target="_self">
       <h3 class="page-title">Leave us a wee review</h3>
-      <h4 id="subheading-title">We would love to hear from you!</h4>
+      <h4 class="subheading-title">We would love to hear from you!</h4>
       <input
         type="text"
         name="name"
@@ -346,7 +346,13 @@
         placeholder="Email"
         required
       >
-      <textarea id="review-textarea" rows="8" cols="45"></textarea>
+      <textarea
+        class="form-control"
+        rows="5"
+        name="review-text"
+        id="review-text"
+        placeholder="What's your company?"
+      ></textarea>
       <button
         type="submit"
         id="submit-review"
