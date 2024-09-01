@@ -4,7 +4,6 @@
 1. UX
 	* Project Goals
 	* Customers goals
-	* Business goals
 	* Collaborators goals
 	* User stories
 	* Design choices
