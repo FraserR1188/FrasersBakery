@@ -444,6 +444,10 @@ body {
     margin-bottom: 15px;
   }
 
+  .intro {
+    width: 90%;
+  }
+
   .page-divider {
     border-top: 20px solid rgb(67, 67, 170);
     margin-top: 10px;
