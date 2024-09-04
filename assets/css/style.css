@@ -144,7 +144,7 @@ body {
   border-radius: 10px;
 }
 
-/* The next few bit of code were taken from W3C schools to create the hover overlay effect */
+/* The next few bit of code was inspired from W3C schools to create the hover overlay effect */
 .shop-container {
   position: relative;
 }
@@ -441,7 +441,7 @@ body {
   .page-title {
     font-size: 1.5rem;
     margin: 0;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
 
   .page-divider {
