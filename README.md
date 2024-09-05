@@ -1,33 +1,51 @@
 
+# Frasers Bakery
+
+The family of Frasers want everyone to enjoy their baked goods! They are samll independently, family ran bakery in heart of Newcastle-Upon-Tyne, England. They are want more people to enjoy their pasteries and bread, hopefully through this website that will be achieved!
+
+There is a specific form for collabrating with other buisnesses and social media links are throughout the website to increase a social media presence.
+
+![Am I Responsive](./assets/readme-images/responsive-website-main-image.png)
+
+[View the website here](https://fraserr1188.github.io/FrasersBakery/)
+
+
 # Table of Contents
 
-1. UX
-	* Project Goals
-	* Customers goals
-	* Collaborators goals
-	* User stories
-	* Design choices
-	* Wireframes
+1. [UX](#ux)
+	* [Project Goals](#project-goals)
+	* [Customers goals](#customer-goals)
+	* [Collaborators goals](#collaborators--potential-business-partners)
+	* [User stories](#testing-user-stories-from-user-experience-ux-section)
+	* [Design choices](#design-choices)
+	* [Wireframes](#wireframes)
 
 
-2.  Features
-	* Existing features
-	* Features left to implement
+2.  [Features](#features)
+	* [Existing features](#existing-features)
+	* [Possible future features](#future-features)
 
-3. Technologies used
+3. [Technologies used](#technologies-used)
 
-4. Testing
+4. [Testing](#testing)
+	* [Validation Results](#validation-results)
+	* [Further Testing](#further-testing)
+	* [Fixed Bugs](#fixed-bugs)
 
 5. Deployment
-	* How to run this project locally
+	* [GitHub Pages](#github-pages)
+	* [Forking the GitHub Repository](#forking-the-github-repository)
+	* [Make a Local Clone](#make-a-local-clone)
 
 6. Credits
-	* Content
-	* Media
-	* Code
-	* Acknowledgements
+	* [Content](#content)
+	* [Media](#media)
+	* [Code](#code)
+	* [Acknowledgements](#acknowledgements)
 
 ---
+
+## UX
 
 ## Project Goals
 
@@ -101,14 +119,26 @@ The icons which will be present will be used for their metaphorically and litera
 - The writing will nicely spaced to make it readable. Titles will be a decent amount of space between itself and the following writing or information (maps/images etc...). 
 
 ### Wireframes
+<details>
+<summary> index.html
+</summary>
 
-![wireframe-index](https://github.com/user-attachments/assets/abf5c150-e195-4743-b0ca-f739f930a096)
+![wireframe-index](./assets/readme-images/wireframe-index.png)
+</details>
+<details>
+<summary> menu.html
+</summary>
 
-![wireframe-menu](https://github.com/user-attachments/assets/4c28cc92-3061-4074-a74e-2efc42c93872)
+![wireframe-menu](./assets/readme-images/wireframe-menu.png)
+</details>
+<details>
+<summary> work-with-us.html
+</summary>
 
-![wireframe-workwithus](https://github.com/user-attachments/assets/a81ce80d-e754-4944-89f0-0253dc2bc7e4)
+![wireframe-work-with-us](./assets/readme-images/wireframe-work-with-us.png)
+</details>
 
-I added the thankyou.html using the template of the other three and then adding a page-title with the text.
+I added the thank-you.html using the template of the other three and then adding a page-title with the text.
 
 ---
 ## Features
@@ -146,7 +176,13 @@ The basis of the website to simple to navigation and obtain information quick an
 	- This page will allow allow companies and business work together with the bakery to support each others business and allow them to grow.
 	- The presence of having a specific page will seem more professional.
 
-I added unintended features when going through Bootstrap's documentation. I inputted in the carousel feature, along with the code from the documentation. This seems to be a good addition as it showcases the product from bakery to the user straight away.
+I added unintended features when going through Bootstrap's documentation. I inputted in the carousel feature. This seems to be a good addition as it showcases the product from bakery to the user straight away.
+
+### Future features
+
+- Increasing the amount of products.
+- Make it an e-commerce webiste.
+- Have a delivery page.
 
 ## Technologies Used
 
@@ -169,6 +205,8 @@ I added unintended features when going through Bootstrap's documentation. I inpu
 	- hover.css was used on the navigation bar to create a fun grow and rotate effect on the tabs.
 
 ## Testing
+
+### Validation Results
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors:
 - [W3C Markup Validator](https://validator.w3.org/)
@@ -212,7 +250,7 @@ All links which are present work:
 - The submit buttons on the forms take the user to a thank you webpage to show that link works.
 - Navigation buttons at the top take the user to the correct part of the webpage.
 
-### Known Bugs
+### Fixed Bugs
 
 On the menu.html, when the screen sized decreased the menu figcaption would shoot off to the right. I fixed this using a media queries when the screen got to this size:
 
