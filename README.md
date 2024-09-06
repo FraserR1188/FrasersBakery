@@ -32,12 +32,12 @@ There is a specific form for collabrating with other buisnesses and social media
 	* [Further Testing](#further-testing)
 	* [Fixed Bugs](#fixed-bugs)
 
-5. Deployment
+5. [Deployment](#deployment)
 	* [GitHub Pages](#github-pages)
 	* [Forking the GitHub Repository](#forking-the-github-repository)
 	* [Make a Local Clone](#make-a-local-clone)
 
-6. Credits
+6. [Credits](#credit)
 	* [Content](#content)
 	* [Media](#media)
 	* [Code](#code)
@@ -107,6 +107,7 @@ The icons which will be present will be used for their metaphorically and litera
  - The primary background would be beige/flour feel to represent the bakery and heading/logo/title and text would be dark blue and light blue which would have a good contrast against the background. This should go with the design feature of being easily read.
  - A dark blue colour will be used as the line breaks and potentially the mobile heading bar.
  - The colour's which will be picked will be consistent through the project.
+ - ![Colour Scheme](/assets/readme-images/primary-colours.png)
 
 ### Images
 
@@ -152,31 +153,57 @@ The basis of the website to simple to navigation and obtain information quick an
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
   - The Where are we? page is a smooth transition link to different section on the Home page.
 
+![Navigation bar](/assets/readme-images/navigation-bar.png)
+
 - Who are we?
 	- This will contain information about the bakery itself. A small piece of text containing information about the history.
+
+![Who are we](/assets/readme-images/who-are-we.png)
 
 - Social media icons
 	- These will be present twice on the Home page to support the bakeries need for a increased social media presence. They will be big icons so the user can't miss them.
 
+![Social Media Icons](/assets/readme-images/social-media.png)
+
 - Mailing list
 	- This is present so the user can quickly involve themselves with offers and updates about the bakery without having to fill an entire form in.
 
-- Where are we?
+![Mailing List](/assets/readme-images/mailing-list.png)
+
+- Where Are We?
 	- This contains information a google map and also the address of the bakery. This gives the user accessibility to find out where the bakery is.
+
+![Where Are We](/assets/readme-images/where-are-we.png)
 
 - Leave us a wee review
 	- This enables the user to leave a review of any kind for the bakery to improve their business and hear feedback. The submit button transports the user to a thank you page.
 
+![Leave Us A Wee Review](/assets/readme-images/leave-us-a-review.png)
+
 - Footer
-	- The footer 
+	- The footer contains copyright, terms and conditions and also the social media icons again.
+
+![The Footer](/assets/readme-images/footer.png)
 
 - Our Menu
 	- This page is dedicated to the produce from the bakery and what is to offer. It allows the user to have an idea of what to expect when they come to the bakery themself. The menu has space to grow as well.
-- Work with us
+
+![Menu](/assets/readme-images/menu.png)
+
+- Work With Us
 	- This page will allow allow companies and business work together with the bakery to support each others business and allow them to grow.
 	- The presence of having a specific page will seem more professional.
 
+![Work With Us](/assets/readme-images/work-with-us.png)
+
+- Thank You
+	- There is also a thank you page so show that the form's work correctly
+
+![Thank You](/assets/readme-images/thank-you.png)
+
 I added unintended features when going through Bootstrap's documentation. I inputted in the carousel feature. This seems to be a good addition as it showcases the product from bakery to the user straight away.
+
+![Carousel](/assets/readme-images/carousel.png)
 
 ### Future features
 
