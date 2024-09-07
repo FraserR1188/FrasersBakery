@@ -230,6 +230,8 @@ I added unintended features when going through Bootstrap's documentation. I inpu
 	- Balsamiq was used to create the wireframes for this project through the design process.
 5. [Hover.css](https://ianlunn.github.io/Hover/)
 	- hover.css was used on the navigation bar to create a fun grow and rotate effect on the tabs.
+6. [Am I Responsive?](https://ui.dev/amiresponsive)
+	- Am I Responsive created the main image for the README file.
 
 ## Testing
 
@@ -238,6 +240,37 @@ I added unintended features when going through Bootstrap's documentation. I inpu
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors:
 - [W3C Markup Validator](https://validator.w3.org/)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+<details>
+<summary>index.html
+</summary>
+
+![Home Page validation result](/assets/readme-images/index-html-validate.png)
+</details>
+<details>
+<summary>menu.html
+</summary>
+
+![Menu Page validation result](/assets/readme-images/menu-html-validate.png)
+</details>
+<details>
+<summary>work-with-us.html
+</summary>
+
+![Work With Us Page validation result](/assets/readme-images/work-with-us-validate.png)
+</details>
+<details>
+<summary>thank-you.html
+</summary>
+
+![Thank You Page validation result](/assets/readme-images/thank-you-html-validater.png)
+</details>
+<details>
+<summary>style.css
+</summary>
+
+![CSS Page validation result](/assets/readme-images/bakery-css-validate.png)
+</details>
 
 The website has also gone through Google Lighthouse.
 
@@ -333,113 +366,27 @@ More a more in-depth process click [here.](https://docs.github.com/en/pages/gett
 
 ### Content
 
+- This gave me a better understanding of flex-box: [Flexbox](https://www.youtube.com/watch?v=wsTv9y931o8&t=524s)
+- I used W3C schools and Stackover Flow for further understanding from the content through the Code Institute.
+
+### Media
+
 - Text came from https://www.violetcakes.com/about and then altered to suit the website.
 - All images came from Pixabay.
 - Address and map location is of: https://bigriverbakery.myshopify.com/pages/contact
 
-### Media
-
-![Raspberry Tart](./assets/images/raspberry-tart.jpg)
-
-https://pixabay.com/photos/tart-raspberries-whipped-cream-1283822/
-
-![Apricot Pastry](./assets/images/apricot-squares.jpg)
-
-https://pixabay.com/photos/cake-puff-pastry-desserts-currants-6491616/ 
-
-![Seeded Loaf](./assets/images/seeded-loaf.jpg)
-
-https://pixabay.com/photos/bread-whole-wheat-bread-1510298/
-
-![Wholemeal Loaf](./assets/images/brown-loaf.jpg)
-
-https://pixabay.com/photos/bread-loaf-artisan-artisan-bread-1510155/
-
-![Cinnamon Rolls](./assets/images/cinnamon-swirls.jpg)
-
-https://pixabay.com/photos/cinnamon-rolls-bread-spiral-baking-1417494/
-
-![White Buns](./assets/images/white-bun.jpg)
-
-https://pixabay.com/photos/bread-roll-bun-sweet-dessert-5916804/
-
-![Shop window of bakery](./assets/images/shop-window-of-bakery.jpg)
-
-https://pixabay.com/photos/bakery-breads-assorted-assortment-1868925/
-
-![Inside of bakery](./assets/images/inside-of-the-bakery.jpg)
-
-https://pixabay.com/photos/breads-pastries-croissants-1867459/
-
-![seasame-brown-loaf](./assets/images/sesame-brown-loaf.jpg)
-
-https://pixabay.com/photos/loaf-evening-bread-bread-crust-7445434/
-
-![small-sweet-baguette](./assets/images/small-sweet-baguette.jpg)
-
-https://pixabay.com/photos/pretzels-baked-goods-food-bread-1491789/
-
-![white-loaf](./assets/images/white-loaf.jpg)
-
-https://pixabay.com/photos/bread-loaf-white-bread-baked-food-4642686/
-
 
 ### Code
 
-I started with creating the index.html. I initially didn't have the header fixed with the navigation, this came later. I first got all the content for the header onto the screen. From the wireframes I wanted some sort of showcase of products as soon as the user was to go onto the website. I did some research and found the carousel documentation on Bootstrap. I then obtained all the images from Pixabay. These image can be found in the media section. Once the images were uploaded to the Gitpod I then implemented the carousel.
-I encountered my first bug with the carousel. Once the nav was fixed and followed the screen scroll, it would go behind the carousel pictures. I then gave the nav a z-index of 999 but it would still go behind. I then targeted the carousel and gave it 0, didn't work, I then gave it -1 and the nav would go over the top but it disabled the buttons on the carousel. The carousel slides automatically cycle through and the menu can be seen through another link so I'm not too fussed about losing the buttons.
-The header is the same throughout the website and so it the footer. The footer contains the social icons and also terms and conditions with Robbie Fraser copyright.
-
-I created a clear page divider to divide the different sections on the website. This is used throughout the website.
-
-I used Bootstraps grid layout for the majority of website apart from the address section which contains the map and address. I used flex and flex-wrap so that it was responsive on all screen sizes. I watched a video to have a better understanding of flex-box which is in the Credits section.
-
-I used the icons on Bootstrap to be used in the website as they are supported and look good. I made sure they were present twice on the index.html since having a bigger social presence was key from having this website.
-
-The menu.html is to showcase the main products from the bakery. The way the html contents is laid out, more products can be easily added with the same grid system. 
-
-The workwithus.html is designed to specifically target with future business partners. This separate page should make it seem more serious rather than an after note on the index or even menu. 
-
-I also created a thankyou.html which is used when the user clicks on the submit button to show that the form works,
-
-I originally only had dark blue/beige and black to use throughout the website but I wanted another colour for long text. I decided to go with dark green #003844. Another dark colour with the beige brings warmth to the page. I originally had the page divider on 40px but I've changed it to 70px to make them stand out more and try to make it more eye-catching. I also had the social icons as the same colour as page divider but then changed it to what the long text font is to make them standout more.
-
-I wanted a blend of Bootstrap and custom HTML/CSS to show that I work with both and that both can work together. ASs mentioned before the majority of the layout on all the pages are using Bootstrap's grid system which works really well and is very responsive, especially with images. The only section was with the embedded map and the address which I used flex and flex-wrap. I used Bootstraps default buttons throughout but I did keep the code for an original custom which I found and was going to used but I preferred Bootstraps buttons.
-
-This gave me a better understanding of flex-box:
-[Flexbox](https://www.youtube.com/watch?v=wsTv9y931o8&t=524s)
-
-[https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_fade1](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_fade1)
-This gave me the code for a smooth fade effect over the button which I could use in the future.
-
-This video gave me a better understanding of how to use the Bootstrap grid system:
-[https://stackoverflow.com/questions/35163164/how-to-center-content-in-a-bootstrap-column](https://stackoverflow.com/questions/35163164/how-to-center-content-in-a-bootstrap-column)
-
-I was looking through tutorials in YouTube for inspiration and stumbled across this which was a simple but effective short piece of code:
+- I was looking through tutorials in YouTube for inspiration and stumbled across this which was a simple but effective short piece of code:
 [Smooth scroll](https://www.youtube.com/watch?v=Xc6G3oV24yE) This enabled me to smoothing transition to the "Where are we" section of the website instead of jumping.
 
 <img width="186" alt="smooth-scroll" src="https://github.com/user-attachments/assets/8373cd2a-ffe6-4b2e-b480-924eec9a9e38">
 
-Bootstraps documentation helped a lot through this project and it showed me how to do the carousel imagery on the index.html. I also created my own navbar and not use Bootstraps default. This was purely to show that I can create the code for a fixed positioned navigation bar with fade effects on the writing.
-
-An addition to the navigation bar links was from hover.css:
-https://ianlunn.github.io/Hover/#effects
+- An addition to the navigation bar links was from hover.css: ![hover.css](https://ianlunn.github.io/Hover/#effects)
 This created a grow and then rotate which is a nice, small design feature from an user experience POV.
 
 <img width="104" alt="hvr-code" src="https://github.com/user-attachments/assets/bbb25ea6-4556-4e36-b126-babc462107c2">
-
-I also implemented a hover overlay effect on the two main images in the index.html to enhance the user experience. The content which goes over the images when hovered just gives the user more information about the bakery.
-https://www.w3schools.com/howto/howto_css_image_overlay.asp
-
-<img width="260" alt="hover-overlay" src="https://github.com/user-attachments/assets/37e2d6d2-b30d-4f6d-8dc0-e3423a6ec034">
-
-I have used three different pixel widths for media queries which work well with the webpage. I used this video to give me a better understanding:
-[Media Queries](https://www.youtube.com/watch?v=K24lUqcT0Ms)
-
-I used this website to help me implement a fixed header:
-[https://www.tutorialrepublic.com/faq/how-to-create-fixed-header-or-footer-using-css.php](https://www.tutorialrepublic.com/faq/how-to-create-fixed-header-or-footer-using-css.php)
-
-<img width="154" alt="container-header" src="https://github.com/user-attachments/assets/cecedccc-67ce-433c-b330-f387c21e9ad4">
 
 ## Acknowledgements
 
