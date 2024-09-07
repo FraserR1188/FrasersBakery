@@ -272,7 +272,60 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ![CSS Page validation result](/assets/readme-images/bakery-css-validate.png)
 </details>
 
-The website has also gone through Google Lighthouse.
+
+### Google Lighthouse Report
+
+#### Mobile Reports
+<details>
+<summary>Home Page
+</summary>
+
+![Home Page lighthouse report]()
+</details>
+<details>
+<summary>Menu Page
+</summary>
+
+![Menu Page lighthouse report]()
+</details>
+<details>
+<summary>Work With Us Page
+</summary>
+
+![Work With Us Page lighthouse report]()
+</details>
+<details>
+<summary>Thank You Page
+</summary>
+
+![Thank You Page lighthouse report]()
+</details>
+
+#### Desktop Reports
+<details>
+<summary>Home Page
+</summary>
+
+![Home Page lighthouse report]()
+</details>
+<details>
+<summary>Menu Page
+</summary>
+
+![Menu Page lighthouse report]()
+</details>
+<details>
+<summary>Work With Us Page
+</summary>
+
+![Work With Us Page lighthouse report]()
+</details>
+<details>
+<summary>Thank You Page
+</summary>
+
+![Thank You Page lighthouse report]()
+</details>
 
 ### Testing User Stories from User Experience (UX) Section
 
