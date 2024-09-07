@@ -107,7 +107,8 @@ The icons which will be present will be used for their metaphorically and litera
  - The primary background would be beige/flour feel to represent the bakery and heading/logo/title and text would be dark blue and light blue which would have a good contrast against the background. This should go with the design feature of being easily read.
  - A dark blue colour will be used as the line breaks and potentially the mobile heading bar.
  - The colour's which will be picked will be consistent through the project.
- - ![Colour Scheme](/assets/readme-images/primary-colours.png)
+
+ - ![Colour Scheme](/assets/readme-images/primary-colours.png) These are the colours which I will use throughout the project.
 
 ### Images
 
@@ -280,25 +281,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 <summary>Home Page
 </summary>
 
-![Home Page lighthouse report]()
+![Home Page lighthouse report](./assets/readme-images/index-mobile.png)
 </details>
 <details>
 <summary>Menu Page
 </summary>
 
-![Menu Page lighthouse report]()
+![Menu Page lighthouse report](./assets/readme-images/menu-mobile.png)
 </details>
 <details>
 <summary>Work With Us Page
 </summary>
 
-![Work With Us Page lighthouse report]()
+![Work With Us Page lighthouse report](./assets/readme-images/work-with-us-mobile.png)
 </details>
 <details>
 <summary>Thank You Page
 </summary>
 
-![Thank You Page lighthouse report]()
+![Thank You Page lighthouse report](./assets/readme-images/thank-you-mobile.png)
 </details>
 
 #### Desktop Reports
@@ -306,25 +307,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 <summary>Home Page
 </summary>
 
-![Home Page lighthouse report]()
+![Home Page lighthouse report](./assets/readme-images/index-desktop.png)
 </details>
 <details>
 <summary>Menu Page
 </summary>
 
-![Menu Page lighthouse report]()
+![Menu Page lighthouse report](./assets/readme-images/menu-desktop.png)
 </details>
 <details>
 <summary>Work With Us Page
 </summary>
 
-![Work With Us Page lighthouse report]()
+![Work With Us Page lighthouse report](./assets/readme-images/work-with-us-desktop.png)
 </details>
 <details>
 <summary>Thank You Page
 </summary>
 
-![Thank You Page lighthouse report]()
+![Thank You Page lighthouse report](./assets/readme-images/thank-you-desktop.png)
 </details>
 
 ### Testing User Stories from User Experience (UX) Section
