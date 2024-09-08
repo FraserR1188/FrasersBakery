@@ -108,7 +108,9 @@ The icons which will be present will be used for their metaphorically and litera
  - A dark blue colour will be used as the line breaks and potentially the mobile heading bar.
  - The colour's which will be picked will be consistent through the project.
 
- - ![Colour Scheme](/assets/readme-images/primary-colours.png) These are the colours which I will use throughout the project.
+ - These are the colours which I will use throughout the project.
+
+ ![Colour Scheme](/assets/readme-images/primary-colours.png)
 
 ### Images
 
@@ -437,7 +439,7 @@ More a more in-depth process click [here.](https://docs.github.com/en/pages/gett
 
 <img width="186" alt="smooth-scroll" src="https://github.com/user-attachments/assets/8373cd2a-ffe6-4b2e-b480-924eec9a9e38">
 
-- An addition to the navigation bar links was from hover.css: ![hover.css](https://ianlunn.github.io/Hover/#effects)
+- An addition to the navigation bar links was from [hover.css](https://ianlunn.github.io/Hover/#effects)
 This created a grow and then rotate which is a nice, small design feature from an user experience POV.
 
 <img width="104" alt="hvr-code" src="https://github.com/user-attachments/assets/bbb25ea6-4556-4e36-b126-babc462107c2">
